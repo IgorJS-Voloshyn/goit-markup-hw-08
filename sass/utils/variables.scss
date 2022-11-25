@@ -39,9 +39,13 @@ img{
 }
 
 .container {
-    width: 100%;
+    max-width: 768px;
     margin: 0 auto;
     padding: 0 15px;
+    @media (min-width:768px){
+        max-width: 1200px;
+    }
+  
 }
 
 .link {
@@ -61,7 +65,12 @@ img{
     margin: -1px;
 }
 .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    @media (min-width:1200px){
     padding-top: 94px;
     padding-bottom: 94px;
+    }
 }
 

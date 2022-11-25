@@ -126,8 +126,20 @@
 }
 
 .site-nav__phone,.site-nav__mail{
-     display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.16;
+    
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+        @media (min-width: 1200px){
+            font-size: 14px;
+        }
         &:hover,
         &:focus {
             fill: var(--color-accent);

@@ -42,9 +42,14 @@ img {
 }
 
 .container {
-  width: 100%;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .link {
@@ -67,6 +72,12 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }/*# sourceMappingURL=variables.css.map */
