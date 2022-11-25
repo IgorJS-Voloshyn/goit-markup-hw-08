@@ -1,0 +1,49 @@
+.primary-button {
+    padding: 10px 32px;
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    transition-property: color background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--color-white);
+    background-color: #188ce8;
+}
+}
+
+
+.secondary-button {
+    border: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+    color: var(--primary-text);
+    background-color: var(--secondary-bgc);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+&:focus {
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+}

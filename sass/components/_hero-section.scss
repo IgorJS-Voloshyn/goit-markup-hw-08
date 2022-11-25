@@ -1,0 +1,35 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--accent-bgc);
+    text-align: center;
+    height: 600px;
+}
+
+.hero--background {
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/heroBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi){
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../images/heroBG@2x.jpg);
+        }
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
