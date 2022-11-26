@@ -1,8 +1,16 @@
 .header--border {
     border-bottom: #ececec solid 1px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
+    padding-top: 16px;
+    padding-bottom: 16px;
+   
+    @media (min-width:768px){
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+         @media (min-width:1200px) {
+             padding-top: 24px;
+             padding-bottom: 24px;
+}}
 
 .logo {
     color: inherit;
